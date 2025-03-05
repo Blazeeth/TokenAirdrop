@@ -7,7 +7,7 @@ interface IERC20 {
 contract token {
     address public owner;
 
-  constructo
+  constructor(){
    owner = msg.sender;
       }
   
